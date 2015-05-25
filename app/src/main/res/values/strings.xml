@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">cat-in-the-hat</string>
+
+    <string name="bt_the_cat">The Cat</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_drseuss">Dr. Seuss</string>
+    <string name="bt_nick">Nick</string>
+    <string name="bt_sally">Sally</string>
+    <string name="bt_thingamajigger">Thingamajigger</string>
+    <string name="bt_thing1">Thing 1</string>
+    <string name="bt_thing2">Thing 2</string>
+</resources>
