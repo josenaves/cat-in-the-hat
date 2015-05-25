@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentTop="true">
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_the_cat"
+                android:text="@string/bt_the_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/button_margin" />
+
+            <Button
+                android:id="@+id/button_thing_1"
+                android:text="@string/bt_thing1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_the_cat"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin" />
+
+            <Button
+                android:id="@+id/button_thing_2"
+                android:text="@string/bt_thing2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_the_cat"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_thingamajigger"
+                android:id="@+id/button_thingamajigger"
+                android:layout_below="@+id/button_thing_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/button_margin" />
+
+            <Button
+                android:id="@+id/button_sally"
+                android:text="@string/bt_sally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_thingamajigger"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/button_margin" />
+
+            <Button
+                android:id="@+id/button_nick"
+                android:text="@string/bt_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_sally"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/button_margin" />
+
+            <Button
+                android:id="@+id/button_drseuss"
+                android:text="@string/bt_drseuss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_nick"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/button_margin" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
